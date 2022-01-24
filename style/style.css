@@ -10,4 +10,43 @@ body {
 }
 .my-bg2 {
   background-color: #4caf50;
+
+}
+.color1 {
+  color: white;
+}
+.color2 {
+  background-color: #4caf50;
+  color: white;
+}
+
+
+.marquee {
+    height: 40px;
+    overflow: hidden;
+    position: relative;
+    background: #fefefe;
+    color: #333;
+    border: 1px solid #4a4a4a;
+}
+
+.marquee p {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    line-height: 40px;
+    text-align: center; 
+    transform: translateX(100%);
+    animation: scroll-left 20s linear infinite;
+}
+
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
 }
