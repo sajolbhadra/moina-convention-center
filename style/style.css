@@ -1,6 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Lobster&family=Poppins:wght@400&display=swap');
-body{
-    font-family: 'Lato', sans-serif;
-font-family: 'Lobster', cursive;
-font-family: 'Poppins', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Lobster&family=Poppins:wght@400&display=swap");
+body {
+  font-family: "Lato", sans-serif;
+  font-family: "Lobster", cursive;
+  font-family: "Poppins", sans-serif;
+}
+
+.my-bg1 {
+  background-color: #e91e63;
+}
+.my-bg2 {
+  background-color: #4caf50;
 }
